@@ -18,7 +18,7 @@ nav {
 
 header {
   background-color: #eadcff;
-  height: calc(100vh -70px);
+  height: calc(100vh - 70px);
   padding: 24px;
   display: flex;
   align-items: center;
@@ -106,7 +106,8 @@ img {
 
 #about,
 #discord,
-#contact {
+#contact,
+footer {
   padding: 48px 0;
 }
 
@@ -118,4 +119,45 @@ img {
 /* DISCORD SECTION */
 #discord {
   background-color: #cefeff;
+}
+
+/* CONTACT SECTION */
+#contact {
+  background-color: #dce9ff;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/* FOOTER SECTION */
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding: 0 16px;
 }
