@@ -70,11 +70,6 @@ li {
   justify-content: center;
 }
 
-/* ABOUT SECTION */
-#about {
-  padding: 48px 0;
-}
-
 h2 {
   font-size: 60px;
   text-align: center;
@@ -107,4 +102,20 @@ img {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 24px;
+}
+
+#about,
+#discord,
+#contact {
+  padding: 48px 0;
+}
+
+/* ABOUT SECTION */
+#about {
+  background-color: #f8ffdc;
+}
+
+/* DISCORD SECTION */
+#discord {
+  background-color: #cefeff;
 }
